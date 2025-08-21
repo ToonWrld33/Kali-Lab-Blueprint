@@ -7,12 +7,12 @@ It is beginner-friendly, screenshot-heavy, and step-by-step — designed to ensu
 
 ## 📜 Table of Contents
 
-- [⚙️ Step 1: Verify Virtualization Support](#️-step-1-verify-virtualization-support)
+- [⚙️ Step 1: Verify Virtualization Support](#-step-1-verify-virtualization-support)
 - [💻 Step 2: Verify Minimum Requirements](#-step-2-verify-minimum-requirements)
 - [📦 Step 3: Download Required Software](#-step-3-download-required-software)
-- [🗂️ Step 4: Organize Your Files](#️-step-4-organize-your-files)
+- [🗂️ Step 4: Organize Your Files](#-step-4-organize-your-files)
 - [🖥️ Step 5: Install VirtualBox](#-step-5-install-virtualbox)
-- [🖥️ Step 6: Install Extension Pack & 7-Zip](#-step-6-install-extension-pack--7-zip)
+- [🖥️ Step 6: Install Extension Pack & 7-zip](#-step-6-install-extension-pack--7-zip)
 - [🗂️ Step 7: Extract Kali VM Files](#-step-7-extract-kali-vm-files)
 - [🖥️ Step 8: Import Kali VM into VirtualBox](#-step-8-import-kali-vm-into-virtualbox)
 - [🔧 Step 9: Configure VM Settings](#-step-9-configure-vm-settings)
