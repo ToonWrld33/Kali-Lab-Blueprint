@@ -59,13 +59,7 @@ sudo apt install geoip-bin -y
 Check if the package works or view its version.
 
 ```bash
-geoiplookup 8.8.8.8
-```
-
-or
-
-```bash
-geoiplookup --version
+wireshark --version
 ```
 
 ![verify package](/images/Package-Management/004.png)
