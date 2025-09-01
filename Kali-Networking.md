@@ -11,7 +11,7 @@ You’ll learn how to check your interfaces, verify connectivity, connect a USB 
 - [🔌 Step 3: Attach USB WiFi Adapter](#-step-3-attach-usb-wifi-adapter)
 - [📡 Step 4: Confirm Adapter is Recognized](#-step-4-confirm-adapter-is-recognized)
 - [⚡ Step 5: NAT vs Bridged Networking](#-step-5-nat-vs-bridged-networking)
-- [✅ Wrapping Up](#-wrapping-up)
+- [📌 Wrapping Up](#-wrapping-up)
 
 ---
 
@@ -121,7 +121,7 @@ In most cases, leave it on **NAT** unless you specifically need Bridged.
 
 ---
 
-## ✅ Wrapping Up
+## 📌 Wrapping Up
 
 In this section, you learned how to:
 - Check interfaces with `ifconfig` / `ip a`  
@@ -129,4 +129,4 @@ In this section, you learned how to:
 - Attach and confirm a USB WiFi adapter  
 - Understand NAT vs Bridged in VirtualBox  
 
-Your Kali VM is now network-ready and prepared for the next step: installing and using tools.
+Your Kali VM is now network-ready and prepared for the next step: installing and using tools. 🐉 
