@@ -76,6 +76,34 @@ ls -l
 
 ![Permissions](/images/User-Management/005.png)
 
+### 🔑 Understanding Linux Permissions  
+
+When you run `ls -l`, you’ll see file permissions represented like this:  
+
+```
+-rwxr-x---
+```
+
+This breaks down into **three groups of three characters**:  
+
+- **Owner (user)** → `rwx`  
+- **Group** → `r-x`  
+- **Others (world)** → `---`  
+
+Each letter stands for:  
+- `r` = read  
+- `w` = write  
+- `x` = execute  
+
+So:  
+- `rwx` = full control (read, write, execute)  
+- `r-x` = can read and execute, but not modify  
+- `---` = no access  
+
+When you use `chmod`:  
+- `chmod 600 file.txt` → `rw- --- ---` (owner can read/write, group and others have no permissions)  
+- `chmod 755 script.sh` → `rwx r-x r-x` (owner full access, group/others can read/execute)  
+
 ---
 
 ## 🔄 Switching Users
@@ -101,7 +129,7 @@ You now know how to:
 - Create and manage users  
 - Grant sudo rights  
 - Change file ownership  
-- Set file permissions  
+- Set file permissions (and understand rwx basics)  
 - Switch between users  
 
 These basics are critical for both **system administration** and **security hardening** in Linux. 🐉
